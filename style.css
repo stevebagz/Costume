@@ -9,6 +9,7 @@
 
 body {
     background-image: url('./images/halloweenbg.jpeg');
+    background-size: cover;
     color: rgb(18, 212, 0);
 }
 
