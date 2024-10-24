@@ -35,11 +35,12 @@ h1 {
 
 input {
     width: 25rem;
-    height: 1.8rem;
+    height: 3rem;
     text-align: center;
     background-color: rgb(107, 223, 97);
     font-size: 1.5rem;
     font-weight: 500;
+    border: ridge 10px black;
 }
 
 input::placeholder {
@@ -54,8 +55,12 @@ button {
     border-radius: 0.5rem;
     font-size: 1.5rem;
     background-color: red;
+    transition: background-color .75s ease, color .75s ease, border .75s ease;
 }
 
 button:hover {
     cursor: pointer;
+    background-color: black;
+    color: red;
+    border: solid 3px red;
 }
